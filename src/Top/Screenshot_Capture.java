@@ -28,7 +28,7 @@ ChromeOptions option = new ChromeOptions();
 	
 	
 	Thread.sleep(5000);
-	
+	 
 	File snapshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 	// Now you can do whatever you need to do with it, for example copy somewhere
 	
